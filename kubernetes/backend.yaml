@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: zulkar786/wanderlust-backend-new:latest
+          image: zulkar786/wanderlust-backend-new:1
           ports:
             - containerPort: 8080
 ---
