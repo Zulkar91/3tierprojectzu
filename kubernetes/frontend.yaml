@@ -14,7 +14,7 @@ spec:
         app: frontend
     spec:
       containers:
-        - name: backend
+        - name: frontend
           image: zulkar786/wanderlust-frontend-new:latest
           ports:
             - containerPort: 5173
